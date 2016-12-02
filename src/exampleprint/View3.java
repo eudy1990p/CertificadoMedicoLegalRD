@@ -161,7 +161,7 @@ public class View3 extends javax.swing.JFrame implements Printable{
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/2.jpg"))); // NOI18N
         jLabel1.setLabelFor(jLabel1);
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 103, 79));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 110, 80));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jLabel2.setText("Av. Bolivar No. 193, La Esperilla. Santo Domingo, D.N., Central (809) 381-2424 / E-Mail: info@casadelconductor.com.do / RNC 122006362");
@@ -224,8 +224,10 @@ public class View3 extends javax.swing.JFrame implements Printable{
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("666-601");
+        jLabel4.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         jLabel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 105, 108, 22));
+        jLabel4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 105, 108, 20));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel5.setText("Yo,");
@@ -462,10 +464,10 @@ public class View3 extends javax.swing.JFrame implements Printable{
         getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 396, 790, -1));
 
         jLabel44.setText("jlabel44");
-        getContentPane().add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(275, 0, 224, 94));
+        getContentPane().add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(275, 0, 240, 120));
 
         jLabel45.setText("jLabel45");
-        getContentPane().add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(597, 0, 140, 60));
+        getContentPane().add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(597, 0, 150, 80));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
